@@ -1,0 +1,37 @@
+package org.test.spark
+
+import org.apache.spark.SparkConf
+import org.apache.spark.SparkContext
+
+object NoCombiner {
+  def main(args: Array[String]) = {
+   //Start the Spark context
+    
+    val conf = new SparkConf()
+      .setAppName("NoCombiner")
+      .setMaster("local")
+      val sc = new SparkContext(conf)
+    val pairRDD = sc.textFile("/Users/chandrikasharma/Downloads/1991.csv")
+//    val pairRDD = sc.textFile("abc.csv")
+    val maxTemps = pairRDD.map(line => line.split(","))
+                          .filter(fields => fields(2) =="TMAX" ||fields(2) =="TMIN")
+                          .map(fields => ((fields(0),fields(2)), Integer.parseInt(fields(3))))
+    val sumByKey=maxTemps.reduceByKey((sum,temp) => temp + sum)                           
+    val countByKey = maxTemps.foldByKey(0)((ct, temp) => ct + 1)
+    val sumCountByKey = sumByKey.join(countByKey)
+    val avgByKey = sumCountByKey.map(t => (t._1, t._2._1 / t._2._2.toDouble))
+    avgByKey.foreach(println)
+    val maxKeyVal =  avgByKey.filter(t=>(t._1._2)=="TMAX").map(t=>(t._1._1,t._2))
+    
+    val minKeyVal =  avgByKey.filter(t=>(t._1._2)=="TMIN").map(t=>(t._1._1,t._2))
+    val result = maxKeyVal.fullOuterJoin(minKeyVal).map {
+              case (id, (left, right)) =>(id, (left.getOrElse(0.00)).toString + ( ","+ right.getOrElse(0.00)).toString)}
+    
+    
+    
+    result.saveAsTextFile("NoCombiner")
+    sc.stop
+
+  }
+
+}

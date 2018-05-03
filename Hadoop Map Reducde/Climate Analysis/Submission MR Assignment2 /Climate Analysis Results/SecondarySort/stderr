@@ -1,0 +1,536 @@
+Error: java.lang.ClassCastException: org.apache.hadoop.io.MapWritable cannot be cast to org.apache.hadoop.io.Text
+	at secondSortPartitioner.getPartition(secondSortPartitioner.java:4)
+	at org.apache.hadoop.mapred.MapTask$NewOutputCollector.write(MapTask.java:724)
+	at org.apache.hadoop.mapreduce.task.TaskInputOutputContextImpl.write(TaskInputOutputContextImpl.java:89)
+	at org.apache.hadoop.mapreduce.lib.map.WrappedMapper$Context.write(WrappedMapper.java:112)
+	at secondarySort$AvgStationTempMapper.map(secondarySort.java:60)
+	at secondarySort$AvgStationTempMapper.map(secondarySort.java:23)
+	at org.apache.hadoop.mapreduce.Mapper.run(Mapper.java:146)
+	at org.apache.hadoop.mapred.MapTask.runNewMapper(MapTask.java:796)
+	at org.apache.hadoop.mapred.MapTask.run(MapTask.java:342)
+	at org.apache.hadoop.mapred.YarnChild$2.run(YarnChild.java:164)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at javax.security.auth.Subject.doAs(Subject.java:422)
+	at org.apache.hadoop.security.UserGroupInformation.doAs(UserGroupInformation.java:1698)
+	at org.apache.hadoop.mapred.YarnChild.main(YarnChild.java:158)
+
+Container killed by the ApplicationMaster.
+Container killed on request. Exit code is 143
+Container exited with a non-zero exit code 143
+
+Error: java.lang.ClassCastException: org.apache.hadoop.io.MapWritable cannot be cast to org.apache.hadoop.io.Text
+	at secondSortPartitioner.getPartition(secondSortPartitioner.java:4)
+	at org.apache.hadoop.mapred.MapTask$NewOutputCollector.write(MapTask.java:724)
+	at org.apache.hadoop.mapreduce.task.TaskInputOutputContextImpl.write(TaskInputOutputContextImpl.java:89)
+	at org.apache.hadoop.mapreduce.lib.map.WrappedMapper$Context.write(WrappedMapper.java:112)
+	at secondarySort$AvgStationTempMapper.map(secondarySort.java:60)
+	at secondarySort$AvgStationTempMapper.map(secondarySort.java:23)
+	at org.apache.hadoop.mapreduce.Mapper.run(Mapper.java:146)
+	at org.apache.hadoop.mapred.MapTask.runNewMapper(MapTask.java:796)
+	at org.apache.hadoop.mapred.MapTask.run(MapTask.java:342)
+	at org.apache.hadoop.mapred.YarnChild$2.run(YarnChild.java:164)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at javax.security.auth.Subject.doAs(Subject.java:422)
+	at org.apache.hadoop.security.UserGroupInformation.doAs(UserGroupInformation.java:1698)
+	at org.apache.hadoop.mapred.YarnChild.main(YarnChild.java:158)
+
+Container killed by the ApplicationMaster.
+Container killed on request. Exit code is 143
+Container exited with a non-zero exit code 143
+
+Error: java.lang.ClassCastException: org.apache.hadoop.io.MapWritable cannot be cast to org.apache.hadoop.io.Text
+	at secondSortPartitioner.getPartition(secondSortPartitioner.java:4)
+	at org.apache.hadoop.mapred.MapTask$NewOutputCollector.write(MapTask.java:724)
+	at org.apache.hadoop.mapreduce.task.TaskInputOutputContextImpl.write(TaskInputOutputContextImpl.java:89)
+	at org.apache.hadoop.mapreduce.lib.map.WrappedMapper$Context.write(WrappedMapper.java:112)
+	at secondarySort$AvgStationTempMapper.map(secondarySort.java:60)
+	at secondarySort$AvgStationTempMapper.map(secondarySort.java:23)
+	at org.apache.hadoop.mapreduce.Mapper.run(Mapper.java:146)
+	at org.apache.hadoop.mapred.MapTask.runNewMapper(MapTask.java:796)
+	at org.apache.hadoop.mapred.MapTask.run(MapTask.java:342)
+	at org.apache.hadoop.mapred.YarnChild$2.run(YarnChild.java:164)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at javax.security.auth.Subject.doAs(Subject.java:422)
+	at org.apache.hadoop.security.UserGroupInformation.doAs(UserGroupInformation.java:1698)
+	at org.apache.hadoop.mapred.YarnChild.main(YarnChild.java:158)
+
+Container killed by the ApplicationMaster.
+Container killed on request. Exit code is 143
+Container exited with a non-zero exit code 143
+
+Error: java.lang.ClassCastException: org.apache.hadoop.io.MapWritable cannot be cast to org.apache.hadoop.io.Text
+	at secondSortPartitioner.getPartition(secondSortPartitioner.java:4)
+	at org.apache.hadoop.mapred.MapTask$NewOutputCollector.write(MapTask.java:724)
+	at org.apache.hadoop.mapreduce.task.TaskInputOutputContextImpl.write(TaskInputOutputContextImpl.java:89)
+	at org.apache.hadoop.mapreduce.lib.map.WrappedMapper$Context.write(WrappedMapper.java:112)
+	at secondarySort$AvgStationTempMapper.map(secondarySort.java:60)
+	at secondarySort$AvgStationTempMapper.map(secondarySort.java:23)
+	at org.apache.hadoop.mapreduce.Mapper.run(Mapper.java:146)
+	at org.apache.hadoop.mapred.MapTask.runNewMapper(MapTask.java:796)
+	at org.apache.hadoop.mapred.MapTask.run(MapTask.java:342)
+	at org.apache.hadoop.mapred.YarnChild$2.run(YarnChild.java:164)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at javax.security.auth.Subject.doAs(Subject.java:422)
+	at org.apache.hadoop.security.UserGroupInformation.doAs(UserGroupInformation.java:1698)
+	at org.apache.hadoop.mapred.YarnChild.main(YarnChild.java:158)
+
+Container killed by the ApplicationMaster.
+Container killed on request. Exit code is 143
+Container exited with a non-zero exit code 143
+
+Error: java.lang.ClassCastException: org.apache.hadoop.io.MapWritable cannot be cast to org.apache.hadoop.io.Text
+	at secondSortPartitioner.getPartition(secondSortPartitioner.java:4)
+	at org.apache.hadoop.mapred.MapTask$NewOutputCollector.write(MapTask.java:724)
+	at org.apache.hadoop.mapreduce.task.TaskInputOutputContextImpl.write(TaskInputOutputContextImpl.java:89)
+	at org.apache.hadoop.mapreduce.lib.map.WrappedMapper$Context.write(WrappedMapper.java:112)
+	at secondarySort$AvgStationTempMapper.map(secondarySort.java:60)
+	at secondarySort$AvgStationTempMapper.map(secondarySort.java:23)
+	at org.apache.hadoop.mapreduce.Mapper.run(Mapper.java:146)
+	at org.apache.hadoop.mapred.MapTask.runNewMapper(MapTask.java:796)
+	at org.apache.hadoop.mapred.MapTask.run(MapTask.java:342)
+	at org.apache.hadoop.mapred.YarnChild$2.run(YarnChild.java:164)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at javax.security.auth.Subject.doAs(Subject.java:422)
+	at org.apache.hadoop.security.UserGroupInformation.doAs(UserGroupInformation.java:1698)
+	at org.apache.hadoop.mapred.YarnChild.main(YarnChild.java:158)
+
+Error: java.lang.ClassCastException: org.apache.hadoop.io.MapWritable cannot be cast to org.apache.hadoop.io.Text
+	at secondSortPartitioner.getPartition(secondSortPartitioner.java:4)
+	at org.apache.hadoop.mapred.MapTask$NewOutputCollector.write(MapTask.java:724)
+	at org.apache.hadoop.mapreduce.task.TaskInputOutputContextImpl.write(TaskInputOutputContextImpl.java:89)
+	at org.apache.hadoop.mapreduce.lib.map.WrappedMapper$Context.write(WrappedMapper.java:112)
+	at secondarySort$AvgStationTempMapper.map(secondarySort.java:60)
+	at secondarySort$AvgStationTempMapper.map(secondarySort.java:23)
+	at org.apache.hadoop.mapreduce.Mapper.run(Mapper.java:146)
+	at org.apache.hadoop.mapred.MapTask.runNewMapper(MapTask.java:796)
+	at org.apache.hadoop.mapred.MapTask.run(MapTask.java:342)
+	at org.apache.hadoop.mapred.YarnChild$2.run(YarnChild.java:164)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at javax.security.auth.Subject.doAs(Subject.java:422)
+	at org.apache.hadoop.security.UserGroupInformation.doAs(UserGroupInformation.java:1698)
+	at org.apache.hadoop.mapred.YarnChild.main(YarnChild.java:158)
+
+Error: java.lang.ClassCastException: org.apache.hadoop.io.MapWritable cannot be cast to org.apache.hadoop.io.Text
+	at secondSortPartitioner.getPartition(secondSortPartitioner.java:4)
+	at org.apache.hadoop.mapred.MapTask$NewOutputCollector.write(MapTask.java:724)
+	at org.apache.hadoop.mapreduce.task.TaskInputOutputContextImpl.write(TaskInputOutputContextImpl.java:89)
+	at org.apache.hadoop.mapreduce.lib.map.WrappedMapper$Context.write(WrappedMapper.java:112)
+	at secondarySort$AvgStationTempMapper.map(secondarySort.java:60)
+	at secondarySort$AvgStationTempMapper.map(secondarySort.java:23)
+	at org.apache.hadoop.mapreduce.Mapper.run(Mapper.java:146)
+	at org.apache.hadoop.mapred.MapTask.runNewMapper(MapTask.java:796)
+	at org.apache.hadoop.mapred.MapTask.run(MapTask.java:342)
+	at org.apache.hadoop.mapred.YarnChild$2.run(YarnChild.java:164)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at javax.security.auth.Subject.doAs(Subject.java:422)
+	at org.apache.hadoop.security.UserGroupInformation.doAs(UserGroupInformation.java:1698)
+	at org.apache.hadoop.mapred.YarnChild.main(YarnChild.java:158)
+
+Container killed by the ApplicationMaster.
+Container killed on request. Exit code is 143
+Container exited with a non-zero exit code 143
+
+Error: java.lang.ClassCastException: org.apache.hadoop.io.MapWritable cannot be cast to org.apache.hadoop.io.Text
+	at secondSortPartitioner.getPartition(secondSortPartitioner.java:4)
+	at org.apache.hadoop.mapred.MapTask$NewOutputCollector.write(MapTask.java:724)
+	at org.apache.hadoop.mapreduce.task.TaskInputOutputContextImpl.write(TaskInputOutputContextImpl.java:89)
+	at org.apache.hadoop.mapreduce.lib.map.WrappedMapper$Context.write(WrappedMapper.java:112)
+	at secondarySort$AvgStationTempMapper.map(secondarySort.java:60)
+	at secondarySort$AvgStationTempMapper.map(secondarySort.java:23)
+	at org.apache.hadoop.mapreduce.Mapper.run(Mapper.java:146)
+	at org.apache.hadoop.mapred.MapTask.runNewMapper(MapTask.java:796)
+	at org.apache.hadoop.mapred.MapTask.run(MapTask.java:342)
+	at org.apache.hadoop.mapred.YarnChild$2.run(YarnChild.java:164)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at javax.security.auth.Subject.doAs(Subject.java:422)
+	at org.apache.hadoop.security.UserGroupInformation.doAs(UserGroupInformation.java:1698)
+	at org.apache.hadoop.mapred.YarnChild.main(YarnChild.java:158)
+
+Container killed by the ApplicationMaster.
+Container killed on request. Exit code is 143
+Container exited with a non-zero exit code 143
+
+Error: java.lang.ClassCastException: org.apache.hadoop.io.MapWritable cannot be cast to org.apache.hadoop.io.Text
+	at secondSortPartitioner.getPartition(secondSortPartitioner.java:4)
+	at org.apache.hadoop.mapred.MapTask$NewOutputCollector.write(MapTask.java:724)
+	at org.apache.hadoop.mapreduce.task.TaskInputOutputContextImpl.write(TaskInputOutputContextImpl.java:89)
+	at org.apache.hadoop.mapreduce.lib.map.WrappedMapper$Context.write(WrappedMapper.java:112)
+	at secondarySort$AvgStationTempMapper.map(secondarySort.java:60)
+	at secondarySort$AvgStationTempMapper.map(secondarySort.java:23)
+	at org.apache.hadoop.mapreduce.Mapper.run(Mapper.java:146)
+	at org.apache.hadoop.mapred.MapTask.runNewMapper(MapTask.java:796)
+	at org.apache.hadoop.mapred.MapTask.run(MapTask.java:342)
+	at org.apache.hadoop.mapred.YarnChild$2.run(YarnChild.java:164)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at javax.security.auth.Subject.doAs(Subject.java:422)
+	at org.apache.hadoop.security.UserGroupInformation.doAs(UserGroupInformation.java:1698)
+	at org.apache.hadoop.mapred.YarnChild.main(YarnChild.java:158)
+
+Container killed by the ApplicationMaster.
+Container killed on request. Exit code is 143
+Container exited with a non-zero exit code 143
+
+Error: java.lang.ClassCastException: org.apache.hadoop.io.MapWritable cannot be cast to org.apache.hadoop.io.Text
+	at secondSortPartitioner.getPartition(secondSortPartitioner.java:4)
+	at org.apache.hadoop.mapred.MapTask$NewOutputCollector.write(MapTask.java:724)
+	at org.apache.hadoop.mapreduce.task.TaskInputOutputContextImpl.write(TaskInputOutputContextImpl.java:89)
+	at org.apache.hadoop.mapreduce.lib.map.WrappedMapper$Context.write(WrappedMapper.java:112)
+	at secondarySort$AvgStationTempMapper.map(secondarySort.java:60)
+	at secondarySort$AvgStationTempMapper.map(secondarySort.java:23)
+	at org.apache.hadoop.mapreduce.Mapper.run(Mapper.java:146)
+	at org.apache.hadoop.mapred.MapTask.runNewMapper(MapTask.java:796)
+	at org.apache.hadoop.mapred.MapTask.run(MapTask.java:342)
+	at org.apache.hadoop.mapred.YarnChild$2.run(YarnChild.java:164)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at javax.security.auth.Subject.doAs(Subject.java:422)
+	at org.apache.hadoop.security.UserGroupInformation.doAs(UserGroupInformation.java:1698)
+	at org.apache.hadoop.mapred.YarnChild.main(YarnChild.java:158)
+
+Container killed by the ApplicationMaster.
+Container killed on request. Exit code is 143
+Container exited with a non-zero exit code 143
+
+Error: java.lang.ClassCastException: org.apache.hadoop.io.MapWritable cannot be cast to org.apache.hadoop.io.Text
+	at secondSortPartitioner.getPartition(secondSortPartitioner.java:4)
+	at org.apache.hadoop.mapred.MapTask$NewOutputCollector.write(MapTask.java:724)
+	at org.apache.hadoop.mapreduce.task.TaskInputOutputContextImpl.write(TaskInputOutputContextImpl.java:89)
+	at org.apache.hadoop.mapreduce.lib.map.WrappedMapper$Context.write(WrappedMapper.java:112)
+	at secondarySort$AvgStationTempMapper.map(secondarySort.java:60)
+	at secondarySort$AvgStationTempMapper.map(secondarySort.java:23)
+	at org.apache.hadoop.mapreduce.Mapper.run(Mapper.java:146)
+	at org.apache.hadoop.mapred.MapTask.runNewMapper(MapTask.java:796)
+	at org.apache.hadoop.mapred.MapTask.run(MapTask.java:342)
+	at org.apache.hadoop.mapred.YarnChild$2.run(YarnChild.java:164)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at javax.security.auth.Subject.doAs(Subject.java:422)
+	at org.apache.hadoop.security.UserGroupInformation.doAs(UserGroupInformation.java:1698)
+	at org.apache.hadoop.mapred.YarnChild.main(YarnChild.java:158)
+
+Container killed by the ApplicationMaster.
+Container killed on request. Exit code is 143
+Container exited with a non-zero exit code 143
+
+Error: java.lang.ClassCastException: org.apache.hadoop.io.MapWritable cannot be cast to org.apache.hadoop.io.Text
+	at secondSortPartitioner.getPartition(secondSortPartitioner.java:4)
+	at org.apache.hadoop.mapred.MapTask$NewOutputCollector.write(MapTask.java:724)
+	at org.apache.hadoop.mapreduce.task.TaskInputOutputContextImpl.write(TaskInputOutputContextImpl.java:89)
+	at org.apache.hadoop.mapreduce.lib.map.WrappedMapper$Context.write(WrappedMapper.java:112)
+	at secondarySort$AvgStationTempMapper.map(secondarySort.java:60)
+	at secondarySort$AvgStationTempMapper.map(secondarySort.java:23)
+	at org.apache.hadoop.mapreduce.Mapper.run(Mapper.java:146)
+	at org.apache.hadoop.mapred.MapTask.runNewMapper(MapTask.java:796)
+	at org.apache.hadoop.mapred.MapTask.run(MapTask.java:342)
+	at org.apache.hadoop.mapred.YarnChild$2.run(YarnChild.java:164)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at javax.security.auth.Subject.doAs(Subject.java:422)
+	at org.apache.hadoop.security.UserGroupInformation.doAs(UserGroupInformation.java:1698)
+	at org.apache.hadoop.mapred.YarnChild.main(YarnChild.java:158)
+
+Container killed by the ApplicationMaster.
+Container killed on request. Exit code is 143
+Container exited with a non-zero exit code 143
+
+Error: java.lang.ClassCastException: org.apache.hadoop.io.MapWritable cannot be cast to org.apache.hadoop.io.Text
+	at secondSortPartitioner.getPartition(secondSortPartitioner.java:4)
+	at org.apache.hadoop.mapred.MapTask$NewOutputCollector.write(MapTask.java:724)
+	at org.apache.hadoop.mapreduce.task.TaskInputOutputContextImpl.write(TaskInputOutputContextImpl.java:89)
+	at org.apache.hadoop.mapreduce.lib.map.WrappedMapper$Context.write(WrappedMapper.java:112)
+	at secondarySort$AvgStationTempMapper.map(secondarySort.java:60)
+	at secondarySort$AvgStationTempMapper.map(secondarySort.java:23)
+	at org.apache.hadoop.mapreduce.Mapper.run(Mapper.java:146)
+	at org.apache.hadoop.mapred.MapTask.runNewMapper(MapTask.java:796)
+	at org.apache.hadoop.mapred.MapTask.run(MapTask.java:342)
+	at org.apache.hadoop.mapred.YarnChild$2.run(YarnChild.java:164)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at javax.security.auth.Subject.doAs(Subject.java:422)
+	at org.apache.hadoop.security.UserGroupInformation.doAs(UserGroupInformation.java:1698)
+	at org.apache.hadoop.mapred.YarnChild.main(YarnChild.java:158)
+
+Container killed by the ApplicationMaster.
+Container killed on request. Exit code is 143
+Container exited with a non-zero exit code 143
+
+Error: java.lang.ClassCastException: org.apache.hadoop.io.MapWritable cannot be cast to org.apache.hadoop.io.Text
+	at secondSortPartitioner.getPartition(secondSortPartitioner.java:4)
+	at org.apache.hadoop.mapred.MapTask$NewOutputCollector.write(MapTask.java:724)
+	at org.apache.hadoop.mapreduce.task.TaskInputOutputContextImpl.write(TaskInputOutputContextImpl.java:89)
+	at org.apache.hadoop.mapreduce.lib.map.WrappedMapper$Context.write(WrappedMapper.java:112)
+	at secondarySort$AvgStationTempMapper.map(secondarySort.java:60)
+	at secondarySort$AvgStationTempMapper.map(secondarySort.java:23)
+	at org.apache.hadoop.mapreduce.Mapper.run(Mapper.java:146)
+	at org.apache.hadoop.mapred.MapTask.runNewMapper(MapTask.java:796)
+	at org.apache.hadoop.mapred.MapTask.run(MapTask.java:342)
+	at org.apache.hadoop.mapred.YarnChild$2.run(YarnChild.java:164)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at javax.security.auth.Subject.doAs(Subject.java:422)
+	at org.apache.hadoop.security.UserGroupInformation.doAs(UserGroupInformation.java:1698)
+	at org.apache.hadoop.mapred.YarnChild.main(YarnChild.java:158)
+
+Container killed by the ApplicationMaster.
+Container killed on request. Exit code is 143
+Container exited with a non-zero exit code 143
+
+Error: java.lang.ClassCastException: org.apache.hadoop.io.MapWritable cannot be cast to org.apache.hadoop.io.Text
+	at secondSortPartitioner.getPartition(secondSortPartitioner.java:4)
+	at org.apache.hadoop.mapred.MapTask$NewOutputCollector.write(MapTask.java:724)
+	at org.apache.hadoop.mapreduce.task.TaskInputOutputContextImpl.write(TaskInputOutputContextImpl.java:89)
+	at org.apache.hadoop.mapreduce.lib.map.WrappedMapper$Context.write(WrappedMapper.java:112)
+	at secondarySort$AvgStationTempMapper.map(secondarySort.java:60)
+	at secondarySort$AvgStationTempMapper.map(secondarySort.java:23)
+	at org.apache.hadoop.mapreduce.Mapper.run(Mapper.java:146)
+	at org.apache.hadoop.mapred.MapTask.runNewMapper(MapTask.java:796)
+	at org.apache.hadoop.mapred.MapTask.run(MapTask.java:342)
+	at org.apache.hadoop.mapred.YarnChild$2.run(YarnChild.java:164)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at javax.security.auth.Subject.doAs(Subject.java:422)
+	at org.apache.hadoop.security.UserGroupInformation.doAs(UserGroupInformation.java:1698)
+	at org.apache.hadoop.mapred.YarnChild.main(YarnChild.java:158)
+
+Error: java.lang.ClassCastException: org.apache.hadoop.io.MapWritable cannot be cast to org.apache.hadoop.io.Text
+	at secondSortPartitioner.getPartition(secondSortPartitioner.java:4)
+	at org.apache.hadoop.mapred.MapTask$NewOutputCollector.write(MapTask.java:724)
+	at org.apache.hadoop.mapreduce.task.TaskInputOutputContextImpl.write(TaskInputOutputContextImpl.java:89)
+	at org.apache.hadoop.mapreduce.lib.map.WrappedMapper$Context.write(WrappedMapper.java:112)
+	at secondarySort$AvgStationTempMapper.map(secondarySort.java:60)
+	at secondarySort$AvgStationTempMapper.map(secondarySort.java:23)
+	at org.apache.hadoop.mapreduce.Mapper.run(Mapper.java:146)
+	at org.apache.hadoop.mapred.MapTask.runNewMapper(MapTask.java:796)
+	at org.apache.hadoop.mapred.MapTask.run(MapTask.java:342)
+	at org.apache.hadoop.mapred.YarnChild$2.run(YarnChild.java:164)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at javax.security.auth.Subject.doAs(Subject.java:422)
+	at org.apache.hadoop.security.UserGroupInformation.doAs(UserGroupInformation.java:1698)
+	at org.apache.hadoop.mapred.YarnChild.main(YarnChild.java:158)
+
+Container killed by the ApplicationMaster.
+Container killed on request. Exit code is 143
+Container exited with a non-zero exit code 143
+
+Error: java.lang.ClassCastException: org.apache.hadoop.io.MapWritable cannot be cast to org.apache.hadoop.io.Text
+	at secondSortPartitioner.getPartition(secondSortPartitioner.java:4)
+	at org.apache.hadoop.mapred.MapTask$NewOutputCollector.write(MapTask.java:724)
+	at org.apache.hadoop.mapreduce.task.TaskInputOutputContextImpl.write(TaskInputOutputContextImpl.java:89)
+	at org.apache.hadoop.mapreduce.lib.map.WrappedMapper$Context.write(WrappedMapper.java:112)
+	at secondarySort$AvgStationTempMapper.map(secondarySort.java:60)
+	at secondarySort$AvgStationTempMapper.map(secondarySort.java:23)
+	at org.apache.hadoop.mapreduce.Mapper.run(Mapper.java:146)
+	at org.apache.hadoop.mapred.MapTask.runNewMapper(MapTask.java:796)
+	at org.apache.hadoop.mapred.MapTask.run(MapTask.java:342)
+	at org.apache.hadoop.mapred.YarnChild$2.run(YarnChild.java:164)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at javax.security.auth.Subject.doAs(Subject.java:422)
+	at org.apache.hadoop.security.UserGroupInformation.doAs(UserGroupInformation.java:1698)
+	at org.apache.hadoop.mapred.YarnChild.main(YarnChild.java:158)
+
+Error: java.lang.ClassCastException: org.apache.hadoop.io.MapWritable cannot be cast to org.apache.hadoop.io.Text
+	at secondSortPartitioner.getPartition(secondSortPartitioner.java:4)
+	at org.apache.hadoop.mapred.MapTask$NewOutputCollector.write(MapTask.java:724)
+	at org.apache.hadoop.mapreduce.task.TaskInputOutputContextImpl.write(TaskInputOutputContextImpl.java:89)
+	at org.apache.hadoop.mapreduce.lib.map.WrappedMapper$Context.write(WrappedMapper.java:112)
+	at secondarySort$AvgStationTempMapper.map(secondarySort.java:60)
+	at secondarySort$AvgStationTempMapper.map(secondarySort.java:23)
+	at org.apache.hadoop.mapreduce.Mapper.run(Mapper.java:146)
+	at org.apache.hadoop.mapred.MapTask.runNewMapper(MapTask.java:796)
+	at org.apache.hadoop.mapred.MapTask.run(MapTask.java:342)
+	at org.apache.hadoop.mapred.YarnChild$2.run(YarnChild.java:164)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at javax.security.auth.Subject.doAs(Subject.java:422)
+	at org.apache.hadoop.security.UserGroupInformation.doAs(UserGroupInformation.java:1698)
+	at org.apache.hadoop.mapred.YarnChild.main(YarnChild.java:158)
+
+Container killed by the ApplicationMaster.
+Container killed on request. Exit code is 143
+Container exited with a non-zero exit code 143
+
+Error: java.lang.ClassCastException: org.apache.hadoop.io.MapWritable cannot be cast to org.apache.hadoop.io.Text
+	at secondSortPartitioner.getPartition(secondSortPartitioner.java:4)
+	at org.apache.hadoop.mapred.MapTask$NewOutputCollector.write(MapTask.java:724)
+	at org.apache.hadoop.mapreduce.task.TaskInputOutputContextImpl.write(TaskInputOutputContextImpl.java:89)
+	at org.apache.hadoop.mapreduce.lib.map.WrappedMapper$Context.write(WrappedMapper.java:112)
+	at secondarySort$AvgStationTempMapper.map(secondarySort.java:60)
+	at secondarySort$AvgStationTempMapper.map(secondarySort.java:23)
+	at org.apache.hadoop.mapreduce.Mapper.run(Mapper.java:146)
+	at org.apache.hadoop.mapred.MapTask.runNewMapper(MapTask.java:796)
+	at org.apache.hadoop.mapred.MapTask.run(MapTask.java:342)
+	at org.apache.hadoop.mapred.YarnChild$2.run(YarnChild.java:164)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at javax.security.auth.Subject.doAs(Subject.java:422)
+	at org.apache.hadoop.security.UserGroupInformation.doAs(UserGroupInformation.java:1698)
+	at org.apache.hadoop.mapred.YarnChild.main(YarnChild.java:158)
+
+Container killed by the ApplicationMaster.
+Container killed on request. Exit code is 143
+Container exited with a non-zero exit code 143
+
+Error: java.lang.ClassCastException: org.apache.hadoop.io.MapWritable cannot be cast to org.apache.hadoop.io.Text
+	at secondSortPartitioner.getPartition(secondSortPartitioner.java:4)
+	at org.apache.hadoop.mapred.MapTask$NewOutputCollector.write(MapTask.java:724)
+	at org.apache.hadoop.mapreduce.task.TaskInputOutputContextImpl.write(TaskInputOutputContextImpl.java:89)
+	at org.apache.hadoop.mapreduce.lib.map.WrappedMapper$Context.write(WrappedMapper.java:112)
+	at secondarySort$AvgStationTempMapper.map(secondarySort.java:60)
+	at secondarySort$AvgStationTempMapper.map(secondarySort.java:23)
+	at org.apache.hadoop.mapreduce.Mapper.run(Mapper.java:146)
+	at org.apache.hadoop.mapred.MapTask.runNewMapper(MapTask.java:796)
+	at org.apache.hadoop.mapred.MapTask.run(MapTask.java:342)
+	at org.apache.hadoop.mapred.YarnChild$2.run(YarnChild.java:164)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at javax.security.auth.Subject.doAs(Subject.java:422)
+	at org.apache.hadoop.security.UserGroupInformation.doAs(UserGroupInformation.java:1698)
+	at org.apache.hadoop.mapred.YarnChild.main(YarnChild.java:158)
+
+Error: java.lang.ClassCastException: org.apache.hadoop.io.MapWritable cannot be cast to org.apache.hadoop.io.Text
+	at secondSortPartitioner.getPartition(secondSortPartitioner.java:4)
+	at org.apache.hadoop.mapred.MapTask$NewOutputCollector.write(MapTask.java:724)
+	at org.apache.hadoop.mapreduce.task.TaskInputOutputContextImpl.write(TaskInputOutputContextImpl.java:89)
+	at org.apache.hadoop.mapreduce.lib.map.WrappedMapper$Context.write(WrappedMapper.java:112)
+	at secondarySort$AvgStationTempMapper.map(secondarySort.java:60)
+	at secondarySort$AvgStationTempMapper.map(secondarySort.java:23)
+	at org.apache.hadoop.mapreduce.Mapper.run(Mapper.java:146)
+	at org.apache.hadoop.mapred.MapTask.runNewMapper(MapTask.java:796)
+	at org.apache.hadoop.mapred.MapTask.run(MapTask.java:342)
+	at org.apache.hadoop.mapred.YarnChild$2.run(YarnChild.java:164)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at javax.security.auth.Subject.doAs(Subject.java:422)
+	at org.apache.hadoop.security.UserGroupInformation.doAs(UserGroupInformation.java:1698)
+	at org.apache.hadoop.mapred.YarnChild.main(YarnChild.java:158)
+
+Container killed by the ApplicationMaster.
+Container killed on request. Exit code is 143
+Container exited with a non-zero exit code 143
+
+Error: java.lang.ClassCastException: org.apache.hadoop.io.MapWritable cannot be cast to org.apache.hadoop.io.Text
+	at secondSortPartitioner.getPartition(secondSortPartitioner.java:4)
+	at org.apache.hadoop.mapred.MapTask$NewOutputCollector.write(MapTask.java:724)
+	at org.apache.hadoop.mapreduce.task.TaskInputOutputContextImpl.write(TaskInputOutputContextImpl.java:89)
+	at org.apache.hadoop.mapreduce.lib.map.WrappedMapper$Context.write(WrappedMapper.java:112)
+	at secondarySort$AvgStationTempMapper.map(secondarySort.java:60)
+	at secondarySort$AvgStationTempMapper.map(secondarySort.java:23)
+	at org.apache.hadoop.mapreduce.Mapper.run(Mapper.java:146)
+	at org.apache.hadoop.mapred.MapTask.runNewMapper(MapTask.java:796)
+	at org.apache.hadoop.mapred.MapTask.run(MapTask.java:342)
+	at org.apache.hadoop.mapred.YarnChild$2.run(YarnChild.java:164)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at javax.security.auth.Subject.doAs(Subject.java:422)
+	at org.apache.hadoop.security.UserGroupInformation.doAs(UserGroupInformation.java:1698)
+	at org.apache.hadoop.mapred.YarnChild.main(YarnChild.java:158)
+
+Error: java.lang.ClassCastException: org.apache.hadoop.io.MapWritable cannot be cast to org.apache.hadoop.io.Text
+	at secondSortPartitioner.getPartition(secondSortPartitioner.java:4)
+	at org.apache.hadoop.mapred.MapTask$NewOutputCollector.write(MapTask.java:724)
+	at org.apache.hadoop.mapreduce.task.TaskInputOutputContextImpl.write(TaskInputOutputContextImpl.java:89)
+	at org.apache.hadoop.mapreduce.lib.map.WrappedMapper$Context.write(WrappedMapper.java:112)
+	at secondarySort$AvgStationTempMapper.map(secondarySort.java:60)
+	at secondarySort$AvgStationTempMapper.map(secondarySort.java:23)
+	at org.apache.hadoop.mapreduce.Mapper.run(Mapper.java:146)
+	at org.apache.hadoop.mapred.MapTask.runNewMapper(MapTask.java:796)
+	at org.apache.hadoop.mapred.MapTask.run(MapTask.java:342)
+	at org.apache.hadoop.mapred.YarnChild$2.run(YarnChild.java:164)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at javax.security.auth.Subject.doAs(Subject.java:422)
+	at org.apache.hadoop.security.UserGroupInformation.doAs(UserGroupInformation.java:1698)
+	at org.apache.hadoop.mapred.YarnChild.main(YarnChild.java:158)
+
+Container killed by the ApplicationMaster.
+Container killed on request. Exit code is 143
+Container exited with a non-zero exit code 143
+
+Error: java.lang.ClassCastException: org.apache.hadoop.io.MapWritable cannot be cast to org.apache.hadoop.io.Text
+	at secondSortPartitioner.getPartition(secondSortPartitioner.java:4)
+	at org.apache.hadoop.mapred.MapTask$NewOutputCollector.write(MapTask.java:724)
+	at org.apache.hadoop.mapreduce.task.TaskInputOutputContextImpl.write(TaskInputOutputContextImpl.java:89)
+	at org.apache.hadoop.mapreduce.lib.map.WrappedMapper$Context.write(WrappedMapper.java:112)
+	at secondarySort$AvgStationTempMapper.map(secondarySort.java:60)
+	at secondarySort$AvgStationTempMapper.map(secondarySort.java:23)
+	at org.apache.hadoop.mapreduce.Mapper.run(Mapper.java:146)
+	at org.apache.hadoop.mapred.MapTask.runNewMapper(MapTask.java:796)
+	at org.apache.hadoop.mapred.MapTask.run(MapTask.java:342)
+	at org.apache.hadoop.mapred.YarnChild$2.run(YarnChild.java:164)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at javax.security.auth.Subject.doAs(Subject.java:422)
+	at org.apache.hadoop.security.UserGroupInformation.doAs(UserGroupInformation.java:1698)
+	at org.apache.hadoop.mapred.YarnChild.main(YarnChild.java:158)
+
+Container killed by the ApplicationMaster.
+Container killed on request. Exit code is 143
+Container exited with a non-zero exit code 143
+
+Error: java.lang.ClassCastException: org.apache.hadoop.io.MapWritable cannot be cast to org.apache.hadoop.io.Text
+	at secondSortPartitioner.getPartition(secondSortPartitioner.java:4)
+	at org.apache.hadoop.mapred.MapTask$NewOutputCollector.write(MapTask.java:724)
+	at org.apache.hadoop.mapreduce.task.TaskInputOutputContextImpl.write(TaskInputOutputContextImpl.java:89)
+	at org.apache.hadoop.mapreduce.lib.map.WrappedMapper$Context.write(WrappedMapper.java:112)
+	at secondarySort$AvgStationTempMapper.map(secondarySort.java:60)
+	at secondarySort$AvgStationTempMapper.map(secondarySort.java:23)
+	at org.apache.hadoop.mapreduce.Mapper.run(Mapper.java:146)
+	at org.apache.hadoop.mapred.MapTask.runNewMapper(MapTask.java:796)
+	at org.apache.hadoop.mapred.MapTask.run(MapTask.java:342)
+	at org.apache.hadoop.mapred.YarnChild$2.run(YarnChild.java:164)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at javax.security.auth.Subject.doAs(Subject.java:422)
+	at org.apache.hadoop.security.UserGroupInformation.doAs(UserGroupInformation.java:1698)
+	at org.apache.hadoop.mapred.YarnChild.main(YarnChild.java:158)
+
+Container killed by the ApplicationMaster.
+Container killed on request. Exit code is 143
+Container exited with a non-zero exit code 143
+
+Error: java.lang.ClassCastException: org.apache.hadoop.io.MapWritable cannot be cast to org.apache.hadoop.io.Text
+	at secondSortPartitioner.getPartition(secondSortPartitioner.java:4)
+	at org.apache.hadoop.mapred.MapTask$NewOutputCollector.write(MapTask.java:724)
+	at org.apache.hadoop.mapreduce.task.TaskInputOutputContextImpl.write(TaskInputOutputContextImpl.java:89)
+	at org.apache.hadoop.mapreduce.lib.map.WrappedMapper$Context.write(WrappedMapper.java:112)
+	at secondarySort$AvgStationTempMapper.map(secondarySort.java:60)
+	at secondarySort$AvgStationTempMapper.map(secondarySort.java:23)
+	at org.apache.hadoop.mapreduce.Mapper.run(Mapper.java:146)
+	at org.apache.hadoop.mapred.MapTask.runNewMapper(MapTask.java:796)
+	at org.apache.hadoop.mapred.MapTask.run(MapTask.java:342)
+	at org.apache.hadoop.mapred.YarnChild$2.run(YarnChild.java:164)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at javax.security.auth.Subject.doAs(Subject.java:422)
+	at org.apache.hadoop.security.UserGroupInformation.doAs(UserGroupInformation.java:1698)
+	at org.apache.hadoop.mapred.YarnChild.main(YarnChild.java:158)
+
+Container killed by the ApplicationMaster.
+Container killed on request. Exit code is 143
+Container exited with a non-zero exit code 143
+
+Error: java.lang.ClassCastException: org.apache.hadoop.io.MapWritable cannot be cast to org.apache.hadoop.io.Text
+	at secondSortPartitioner.getPartition(secondSortPartitioner.java:4)
+	at org.apache.hadoop.mapred.MapTask$NewOutputCollector.write(MapTask.java:724)
+	at org.apache.hadoop.mapreduce.task.TaskInputOutputContextImpl.write(TaskInputOutputContextImpl.java:89)
+	at org.apache.hadoop.mapreduce.lib.map.WrappedMapper$Context.write(WrappedMapper.java:112)
+	at secondarySort$AvgStationTempMapper.map(secondarySort.java:60)
+	at secondarySort$AvgStationTempMapper.map(secondarySort.java:23)
+	at org.apache.hadoop.mapreduce.Mapper.run(Mapper.java:146)
+	at org.apache.hadoop.mapred.MapTask.runNewMapper(MapTask.java:796)
+	at org.apache.hadoop.mapred.MapTask.run(MapTask.java:342)
+	at org.apache.hadoop.mapred.YarnChild$2.run(YarnChild.java:164)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at javax.security.auth.Subject.doAs(Subject.java:422)
+	at org.apache.hadoop.security.UserGroupInformation.doAs(UserGroupInformation.java:1698)
+	at org.apache.hadoop.mapred.YarnChild.main(YarnChild.java:158)
+
+Container killed by the ApplicationMaster.
+Container killed on request. Exit code is 143
+Container exited with a non-zero exit code 143
+
+Error: java.lang.ClassCastException: org.apache.hadoop.io.MapWritable cannot be cast to org.apache.hadoop.io.Text
+	at secondSortPartitioner.getPartition(secondSortPartitioner.java:4)
+	at org.apache.hadoop.mapred.MapTask$NewOutputCollector.write(MapTask.java:724)
+	at org.apache.hadoop.mapreduce.task.TaskInputOutputContextImpl.write(TaskInputOutputContextImpl.java:89)
+	at org.apache.hadoop.mapreduce.lib.map.WrappedMapper$Context.write(WrappedMapper.java:112)
+	at secondarySort$AvgStationTempMapper.map(secondarySort.java:60)
+	at secondarySort$AvgStationTempMapper.map(secondarySort.java:23)
+	at org.apache.hadoop.mapreduce.Mapper.run(Mapper.java:146)
+	at org.apache.hadoop.mapred.MapTask.runNewMapper(MapTask.java:796)
+	at org.apache.hadoop.mapred.MapTask.run(MapTask.java:342)
+	at org.apache.hadoop.mapred.YarnChild$2.run(YarnChild.java:164)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at javax.security.auth.Subject.doAs(Subject.java:422)
+	at org.apache.hadoop.security.UserGroupInformation.doAs(UserGroupInformation.java:1698)
+	at org.apache.hadoop.mapred.YarnChild.main(YarnChild.java:158)
+
+Container killed by the ApplicationMaster.
+Container killed on request. Exit code is 143
+Container exited with a non-zero exit code 143
+

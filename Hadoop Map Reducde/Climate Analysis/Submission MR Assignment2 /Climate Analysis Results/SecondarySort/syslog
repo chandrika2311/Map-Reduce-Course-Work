@@ -1,0 +1,65 @@
+2018-02-12 02:48:34,261 INFO org.apache.hadoop.yarn.client.RMProxy (main): Connecting to ResourceManager at ip-172-31-91-163.ec2.internal/172.31.91.163:8032
+2018-02-12 02:48:37,094 INFO org.apache.hadoop.mapreduce.lib.input.FileInputFormat (main): Total input paths to process : 10
+2018-02-12 02:48:37,109 INFO com.hadoop.compression.lzo.GPLNativeCodeLoader (main): Loaded native gpl library
+2018-02-12 02:48:37,112 INFO com.hadoop.compression.lzo.LzoCodec (main): Successfully loaded & initialized native-lzo library [hadoop-lzo rev f7cb0596948c5bfd3e71d37b0f5bb21a19554666]
+2018-02-12 02:48:37,549 INFO org.apache.hadoop.mapreduce.JobSubmitter (main): number of splits:10
+2018-02-12 02:48:37,728 INFO org.apache.hadoop.mapreduce.JobSubmitter (main): Submitting tokens for job: job_1518403579246_0001
+2018-02-12 02:48:38,091 INFO org.apache.hadoop.yarn.client.api.impl.YarnClientImpl (main): Submitted application application_1518403579246_0001
+2018-02-12 02:48:38,330 INFO org.apache.hadoop.mapreduce.Job (main): The url to track the job: http://ip-172-31-91-163.ec2.internal:20888/proxy/application_1518403579246_0001/
+2018-02-12 02:48:38,331 INFO org.apache.hadoop.mapreduce.Job (main): Running job: job_1518403579246_0001
+2018-02-12 02:48:48,539 INFO org.apache.hadoop.mapreduce.Job (main): Job job_1518403579246_0001 running in uber mode : false
+2018-02-12 02:48:48,540 INFO org.apache.hadoop.mapreduce.Job (main):  map 0% reduce 0%
+2018-02-12 02:49:00,649 INFO org.apache.hadoop.mapreduce.Job (main): Task Id : attempt_1518403579246_0001_m_000004_0, Status : FAILED
+2018-02-12 02:49:01,676 INFO org.apache.hadoop.mapreduce.Job (main): Task Id : attempt_1518403579246_0001_m_000003_0, Status : FAILED
+2018-02-12 02:49:01,677 INFO org.apache.hadoop.mapreduce.Job (main): Task Id : attempt_1518403579246_0001_m_000009_0, Status : FAILED
+2018-02-12 02:49:01,678 INFO org.apache.hadoop.mapreduce.Job (main): Task Id : attempt_1518403579246_0001_m_000008_0, Status : FAILED
+2018-02-12 02:49:01,679 INFO org.apache.hadoop.mapreduce.Job (main): Task Id : attempt_1518403579246_0001_m_000002_0, Status : FAILED
+2018-02-12 02:49:01,680 INFO org.apache.hadoop.mapreduce.Job (main): Task Id : attempt_1518403579246_0001_m_000001_0, Status : FAILED
+2018-02-12 02:49:02,688 INFO org.apache.hadoop.mapreduce.Job (main): Task Id : attempt_1518403579246_0001_m_000000_0, Status : FAILED
+2018-02-12 02:49:02,691 INFO org.apache.hadoop.mapreduce.Job (main): Task Id : attempt_1518403579246_0001_m_000005_0, Status : FAILED
+2018-02-12 02:49:02,692 INFO org.apache.hadoop.mapreduce.Job (main): Task Id : attempt_1518403579246_0001_m_000006_0, Status : FAILED
+2018-02-12 02:49:02,694 INFO org.apache.hadoop.mapreduce.Job (main): Task Id : attempt_1518403579246_0001_m_000007_0, Status : FAILED
+2018-02-12 02:49:08,736 INFO org.apache.hadoop.mapreduce.Job (main): Task Id : attempt_1518403579246_0001_m_000003_1, Status : FAILED
+2018-02-12 02:49:12,757 INFO org.apache.hadoop.mapreduce.Job (main): Task Id : attempt_1518403579246_0001_m_000002_1, Status : FAILED
+2018-02-12 02:49:13,766 INFO org.apache.hadoop.mapreduce.Job (main): Task Id : attempt_1518403579246_0001_m_000001_1, Status : FAILED
+2018-02-12 02:49:13,767 INFO org.apache.hadoop.mapreduce.Job (main): Task Id : attempt_1518403579246_0001_m_000009_1, Status : FAILED
+2018-02-12 02:49:13,768 INFO org.apache.hadoop.mapreduce.Job (main): Task Id : attempt_1518403579246_0001_m_000000_1, Status : FAILED
+2018-02-12 02:49:14,774 INFO org.apache.hadoop.mapreduce.Job (main): Task Id : attempt_1518403579246_0001_m_000007_1, Status : FAILED
+2018-02-12 02:49:15,786 INFO org.apache.hadoop.mapreduce.Job (main): Task Id : attempt_1518403579246_0001_m_000005_1, Status : FAILED
+2018-02-12 02:49:16,792 INFO org.apache.hadoop.mapreduce.Job (main): Task Id : attempt_1518403579246_0001_m_000004_1, Status : FAILED
+2018-02-12 02:49:18,805 INFO org.apache.hadoop.mapreduce.Job (main): Task Id : attempt_1518403579246_0001_m_000008_1, Status : FAILED
+2018-02-12 02:49:18,806 INFO org.apache.hadoop.mapreduce.Job (main): Task Id : attempt_1518403579246_0001_m_000006_1, Status : FAILED
+2018-02-12 02:49:21,825 INFO org.apache.hadoop.mapreduce.Job (main): Task Id : attempt_1518403579246_0001_m_000009_2, Status : FAILED
+2018-02-12 02:49:24,840 INFO org.apache.hadoop.mapreduce.Job (main): Task Id : attempt_1518403579246_0001_m_000001_2, Status : FAILED
+2018-02-12 02:49:25,844 INFO org.apache.hadoop.mapreduce.Job (main):  map 10% reduce 0%
+2018-02-12 02:49:25,845 INFO org.apache.hadoop.mapreduce.Job (main): Task Id : attempt_1518403579246_0001_m_000007_2, Status : FAILED
+2018-02-12 02:49:25,846 INFO org.apache.hadoop.mapreduce.Job (main): Task Id : attempt_1518403579246_0001_m_000008_2, Status : FAILED
+2018-02-12 02:49:26,849 INFO org.apache.hadoop.mapreduce.Job (main):  map 0% reduce 0%
+2018-02-12 02:49:26,852 INFO org.apache.hadoop.mapreduce.Job (main): Task Id : attempt_1518403579246_0001_m_000003_2, Status : FAILED
+2018-02-12 02:49:26,854 INFO org.apache.hadoop.mapreduce.Job (main): Task Id : attempt_1518403579246_0001_m_000000_2, Status : FAILED
+2018-02-12 02:49:32,883 INFO org.apache.hadoop.mapreduce.Job (main): Task Id : attempt_1518403579246_0001_m_000002_2, Status : FAILED
+2018-02-12 02:49:34,894 INFO org.apache.hadoop.mapreduce.Job (main): Task Id : attempt_1518403579246_0001_m_000006_2, Status : FAILED
+2018-02-12 02:49:36,903 INFO org.apache.hadoop.mapreduce.Job (main):  map 100% reduce 100%
+2018-02-12 02:49:37,914 INFO org.apache.hadoop.mapreduce.Job (main): Job job_1518403579246_0001 failed with state FAILED due to: Task failed task_1518403579246_0001_m_000007
+Job failed as tasks failed. failedMaps:1 failedReduces:0
+
+2018-02-12 02:49:38,004 INFO org.apache.hadoop.mapreduce.Job (main): Counters: 17
+	Job Counters 
+		Failed map tasks=29
+		Killed map tasks=9
+		Killed reduce tasks=9
+		Launched map tasks=37
+		Other local map tasks=28
+		Data-local map tasks=10
+		Total time spent by all maps in occupied slots (ms)=19899408
+		Total time spent by all reduces in occupied slots (ms)=0
+		Total time spent by all map tasks (ms)=414571
+		Total time spent by all reduce tasks (ms)=0
+		Total vcore-milliseconds taken by all map tasks=414571
+		Total vcore-milliseconds taken by all reduce tasks=0
+		Total megabyte-milliseconds taken by all map tasks=636781056
+		Total megabyte-milliseconds taken by all reduce tasks=0
+	Map-Reduce Framework
+		CPU time spent (ms)=0
+		Physical memory (bytes) snapshot=0
+		Virtual memory (bytes) snapshot=0

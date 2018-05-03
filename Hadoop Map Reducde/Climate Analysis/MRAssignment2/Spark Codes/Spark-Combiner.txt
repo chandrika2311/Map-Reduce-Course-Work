@@ -1,0 +1,43 @@
+package org.test.spark
+import org.apache.spark.SparkConf
+import org.apache.spark.SparkContext
+
+object Combiner {
+  def main(args: Array[String]) = {
+   //Start the Spark context
+    
+    val conf = new SparkConf()
+      .setAppName(“Combiner”)
+      .setMaster("local")
+      val sc = new SparkContext(conf)
+//Reading file—————————————————————————————————
+    val pairRDD = sc.textFile("/Users/chandrikasharma/Downloads/1991.csv")
+
+    val maxTemps = pairRDD.map(line => line.split(","))
+                          .filter(fields => fields(2) =="TMAX" ||fields(2) =="TMIN")
+                          .map(fields => ((fields(0),fields(2)), Integer.parseInt(fields(3))))
+//———————-used ReduceByKey Function
+    val sumByKey=maxTemps.reduceByKey((sum,temp) => temp + sum) 
+//———————-used FoldByKey Function
+                        
+    val countByKey = maxTemps.foldByKey(0)((ct, temp) => ct + 1)
+//———————-used CombineByKey Function
+    val combinerI = avgByKey.combineByKey(
+        value => (value,1),
+        (acc1:(Double,Double),x)=>(acc1._1+value.toDouble, acc1._2+1),
+        (acc2:(Double, Double), acc3:(Double, Double)) => (acc1._1 + acc2._1, acc1._2 + acc2._2))
+    val avgByKey = combinerI.map(t => (t._1, t._2._1 / t._2._2.toDouble))
+
+    val maxKeyVal =  avgByKey.filter(t=>(t._1._2)=="TMAX").map(t=>(t._1._1,t._2))
+    
+    val minKeyVal =  avgByKey.filter(t=>(t._1._2)=="TMIN").map(t=>(t._1._1,t._2))
+    val result = maxKeyVal.fullOuterJoin(minKeyVal).map {
+              case (id, (left, right)) =>(id, (left.getOrElse(0.00)).toString + ( ","+ right.getOrElse(0.00)).toString)}
+    
+    
+    
+    result.saveAsTextFile("Combiner")
+    sc.stop
+
+  }
+}

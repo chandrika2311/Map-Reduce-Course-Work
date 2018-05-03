@@ -1,0 +1,59 @@
+2018-02-11T21:05:15.212Z INFO Ensure step 2 jar file s3://hw2-task1-Combiner/MR-Assignment2-1.0-SNAPSHOT.jar
+2018-02-11T21:05:16.307Z INFO StepRunner: Created Runner for step 2
+INFO startExec 'hadoop jar /mnt/var/lib/hadoop/steps/s-3U49CRUNEDYJQ/MR-Assignment2-1.0-SNAPSHOT.jar InMapperComb s3://hw2-task1-Combiner/input s3://hw2-task1-Combiner/output'
+INFO Environment:
+  PATH=/sbin:/usr/sbin:/bin:/usr/bin:/usr/local/sbin:/opt/aws/bin
+  LESS_TERMCAP_md=[01;38;5;208m
+  LESS_TERMCAP_me=[0m
+  HISTCONTROL=ignoredups
+  LESS_TERMCAP_mb=[01;31m
+  AWS_AUTO_SCALING_HOME=/opt/aws/apitools/as
+  UPSTART_JOB=rc
+  LESS_TERMCAP_se=[0m
+  HISTSIZE=1000
+  HADOOP_ROOT_LOGGER=INFO,DRFA
+  JAVA_HOME=/etc/alternatives/jre
+  AWS_DEFAULT_REGION=us-east-1
+  AWS_ELB_HOME=/opt/aws/apitools/elb
+  LESS_TERMCAP_us=[04;38;5;111m
+  EC2_HOME=/opt/aws/apitools/ec2
+  TERM=linux
+  XFILESEARCHPATH=/usr/dt/app-defaults/%L/Dt
+  runlevel=3
+  LANG=en_US.UTF-8
+  AWS_CLOUDWATCH_HOME=/opt/aws/apitools/mon
+  MAIL=/var/spool/mail/hadoop
+  LESS_TERMCAP_ue=[0m
+  LOGNAME=hadoop
+  PWD=/
+  LANGSH_SOURCED=1
+  HADOOP_CLIENT_OPTS=-Djava.io.tmpdir=/mnt/var/lib/hadoop/steps/s-3U49CRUNEDYJQ/tmp
+  _=/etc/alternatives/jre/bin/java
+  CONSOLETYPE=serial
+  RUNLEVEL=3
+  LESSOPEN=||/usr/bin/lesspipe.sh %s
+  previous=N
+  UPSTART_EVENTS=runlevel
+  AWS_PATH=/opt/aws
+  USER=hadoop
+  UPSTART_INSTANCE=
+  PREVLEVEL=N
+  HADOOP_LOGFILE=syslog
+  HOSTNAME=ip-172-31-76-7
+  NLSPATH=/usr/dt/lib/nls/msg/%L/%N.cat
+  HADOOP_LOG_DIR=/mnt/var/log/hadoop/steps/s-3U49CRUNEDYJQ
+  EC2_AMITOOL_HOME=/opt/aws/amitools/ec2
+  SHLVL=5
+  HOME=/home/hadoop
+  HADOOP_IDENT_STRING=hadoop
+INFO redirectOutput to /mnt/var/log/hadoop/steps/s-3U49CRUNEDYJQ/stdout
+INFO redirectError to /mnt/var/log/hadoop/steps/s-3U49CRUNEDYJQ/stderr
+INFO Working dir /mnt/var/lib/hadoop/steps/s-3U49CRUNEDYJQ
+INFO ProcessRunner started child process 7451 :
+hadoop    7451  3312  0 21:05 ?        00:00:00 bash /usr/lib/hadoop/bin/hadoop jar /mnt/var/lib/hadoop/steps/s-3U49CRUNEDYJQ/MR-Assignment2-1.0-SNAPSHOT.jar InMapperComb s3://hw2-task1-Combiner/input s3://hw2-task1-Combiner/output
+2018-02-11T21:05:20.379Z INFO HadoopJarStepRunner.Runner: startRun() called for s-3U49CRUNEDYJQ Child Pid: 7451
+INFO Synchronously wait child process to complete : hadoop jar /mnt/var/lib/hadoop/steps/s-3U49CRUN...
+INFO waitProcessCompletion ended with exit code 0 : hadoop jar /mnt/var/lib/hadoop/steps/s-3U49CRUN...
+INFO total process run time: 86 seconds
+2018-02-11T21:06:44.521Z INFO Step created jobs: job_1518382969238_0001
+2018-02-11T21:06:44.522Z INFO Step succeeded with exitCode 0 and took 86 seconds
